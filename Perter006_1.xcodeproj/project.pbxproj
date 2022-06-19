@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F545ACFB285EFA2600DABB7C /* Perter006_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545ACFA285EFA2600DABB7C /* Perter006_1App.swift */; };
-		F545ACFD285EFA2600DABB7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545ACFC285EFA2600DABB7C /* ContentView.swift */; };
 		F545ACFF285EFA2800DABB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F545ACFE285EFA2800DABB7C /* Assets.xcassets */; };
 		F545AD02285EFA2800DABB7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F545AD01285EFA2800DABB7C /* Preview Assets.xcassets */; };
 		F545AD0C285EFA2900DABB7C /* Perter006_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545AD0B285EFA2900DABB7C /* Perter006_1Tests.swift */; };
 		F545AD16285EFA2900DABB7C /* Perter006_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545AD15285EFA2900DABB7C /* Perter006_1UITests.swift */; };
 		F545AD18285EFA2900DABB7C /* Perter006_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545AD17285EFA2900DABB7C /* Perter006_1UITestsLaunchTests.swift */; };
+		F545AD25285EFA4E00DABB7C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545AD24285EFA4E00DABB7C /* HomeView.swift */; };
+		F545AD29285EFBC200DABB7C /* FirstGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545AD28285EFBC200DABB7C /* FirstGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F545ACF7285EFA2600DABB7C /* Perter006_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perter006_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F545ACFA285EFA2600DABB7C /* Perter006_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perter006_1App.swift; sourceTree = "<group>"; };
-		F545ACFC285EFA2600DABB7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F545ACFE285EFA2800DABB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F545AD01285EFA2800DABB7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F545AD07285EFA2900DABB7C /* Perter006_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Perter006_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		F545AD11285EFA2900DABB7C /* Perter006_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Perter006_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F545AD15285EFA2900DABB7C /* Perter006_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perter006_1UITests.swift; sourceTree = "<group>"; };
 		F545AD17285EFA2900DABB7C /* Perter006_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perter006_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F545AD24285EFA4E00DABB7C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F545AD28285EFBC200DABB7C /* FirstGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				F545ACFA285EFA2600DABB7C /* Perter006_1App.swift */,
-				F545ACFC285EFA2600DABB7C /* ContentView.swift */,
+				F545AD24285EFA4E00DABB7C /* HomeView.swift */,
+				F545AD26285EFB7600DABB7C /* FirstGame */,
 				F545ACFE285EFA2800DABB7C /* Assets.xcassets */,
 				F545AD00285EFA2800DABB7C /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				F545AD17285EFA2900DABB7C /* Perter006_1UITestsLaunchTests.swift */,
 			);
 			path = Perter006_1UITests;
+			sourceTree = "<group>";
+		};
+		F545AD26285EFB7600DABB7C /* FirstGame */ = {
+			isa = PBXGroup;
+			children = (
+				F545AD28285EFBC200DABB7C /* FirstGameView.swift */,
+			);
+			path = FirstGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F545ACFD285EFA2600DABB7C /* ContentView.swift in Sources */,
+				F545AD25285EFA4E00DABB7C /* HomeView.swift in Sources */,
 				F545ACFB285EFA2600DABB7C /* Perter006_1App.swift in Sources */,
+				F545AD29285EFBC200DABB7C /* FirstGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +434,8 @@
 				DEVELOPMENT_TEAM = 942H6V444Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Perter006-1-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +465,8 @@
 				DEVELOPMENT_TEAM = 942H6V444Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Perter006-1-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

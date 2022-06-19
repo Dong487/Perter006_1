@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Perter006_1App: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstGameView()
         }
     }
+        
 }
